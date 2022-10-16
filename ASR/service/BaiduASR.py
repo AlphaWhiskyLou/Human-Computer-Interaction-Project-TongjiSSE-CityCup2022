@@ -38,7 +38,7 @@ SECRET_KEY = ''
 
 
 
-CUID = '123456PYTHON'
+CUID = ''
 # 采样率
 RATE = 16000  # 固定值
 
