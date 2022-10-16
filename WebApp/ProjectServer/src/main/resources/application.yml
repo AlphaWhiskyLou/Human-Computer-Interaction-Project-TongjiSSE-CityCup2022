@@ -1,0 +1,33 @@
+spring:
+  mvc:
+    async:
+      request-timeout: 2000
+
+  activemq:
+    broker-url: 
+    user: 
+    password: 
+    in-memory: true
+    pool:
+      enabled: true
+      max-connections: 10
+      idle-timeout: 30000
+
+  datasource:
+    username: 
+    password: 
+    url: 
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+
+
+file:
+  secretId: 
+  secretKey: 
+  regionName: 
+  bucketName: 
+
+server:
+  port: 81
+

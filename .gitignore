@@ -1,0 +1,8 @@
+*.pyc
+*.xml
+*.wav
+*.iml
+
+.idea
+
+WebApp/project-vue/config/dist/
